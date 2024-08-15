@@ -34,8 +34,8 @@
     </p>
     <p>
         <a href="index.php">Inicio</a> |
-        <a href="{{ route('alumnos.create') }}">Ingreso</a> |
-        <a href="{{ route('alumnos') }}">Listado</a>
+        <a href="{{ route('clientes.create') }}">Ingreso</a> |
+        <a href="{{ route('clientes') }}">Listado</a>
     </p>
 </div>
 

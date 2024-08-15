@@ -10,10 +10,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class ="nav-link" href="{{route('home')}}">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('alumnos.create') }}">Ingreso</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('alumnos') }}">Listado</a></li>
-
-
+                    <li class="nav-item"><a class ="nav-link" href="{{route('servicios')}}">Servicios</a></li>
+                    <li class="nav-item"><a class ="nav-link" href="{{route('proyectos')}}">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('clientes') }}">Clientes</a></li>
+                    <li class="nav-item"><a class ="nav-link" href="{{route('blog')}}">Blog</a></li>
+                    <li class="nav-item"><a class ="nav-link" href="{{route('contactos')}}">Contacto</a></li>
                 </ul>
             </div>
         @endif
